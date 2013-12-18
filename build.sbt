@@ -11,7 +11,9 @@ resolvers ++= Seq(
 )
 
 libraryDependencies := Seq(
-  "net.mtgto" %% "scala-irc-bot" % "0.2.1"
+  "net.mtgto" %% "scala-irc-bot" % "0.2.1",
+  "com.typesafe" %% "scalalogging-slf4j" % "1.0.1",
+  "org.slf4j" % "slf4j-api" % "1.7.2"
 )
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
